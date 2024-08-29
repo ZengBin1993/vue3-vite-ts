@@ -1,0 +1,796 @@
+@charset "UTF-8";
+
+.text-right {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.break-all {
+  word-break: break-all;
+}
+
+.flex {
+  display: flex;
+}
+
+.f-fb {
+  display: flex;
+  justify-content: space-between;
+}
+
+.f-fbc {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.f-fl {
+  display: flex;
+  justify-content: left;
+}
+
+.f-fcl {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.f-fc {
+  display: flex;
+  justify-content: center;
+}
+
+.f-fcc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.f-fr {
+  display: flex;
+  justify-content: right;
+}
+
+.f-fcr {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+.f-wrap {
+  flex-wrap: wrap;
+}
+
+.ellipsis_1 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.ellipsis_2 {
+  display: -webkit-box; /* Safari */
+  -webkit-line-clamp: 2; /* Safari and Chrome */
+  -webkit-box-orient: vertical; /* Safari and Chrome */
+  overflow: hidden;
+}
+
+.ellipsis_3 {
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+}
+
+.backCover {
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+}
+
+.ui-relative {
+  position: relative;
+}
+
+.ui-overflow {
+  overflow: hidden;
+}
+
+.flo_l {
+  float: left;
+}
+
+.flo_r {
+  float: right;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.colorF {
+  color: #fff;
+}
+
+.color3 {
+  color: #333;
+}
+
+.color6 {
+  color: #666;
+}
+
+.color9 {
+  color: #999;
+}
+
+.colorF5 {
+  color: #f5f5f5;
+}
+
+.colorF8 {
+  color: #f8f8f8;
+}
+
+.colorC2 {
+  color: #c2c2c2;
+}
+
+.colorTheme {
+  color: #5ac7a0;
+}
+
+.colorBlue {
+  color: #2a63b2;
+}
+
+.colorPrice {
+  color: #ff5959;
+}
+
+.bcTheme {
+  background: linear-gradient(90deg, #8c9bff 0%, #707ffa 100%);
+}
+
+.font_12 {
+  font-size: 12px;
+}
+
+.font_14 {
+  font-size: 14px;
+}
+
+.font_16 {
+  font-size: 16px;
+}
+
+.font_18 {
+  font-size: 18px;
+}
+
+.font_20 {
+  font-size: 20px;
+}
+
+.font_22 {
+  font-size: 22px;
+}
+
+.font_24 {
+  font-size: 24px;
+}
+
+.font_26 {
+  font-size: 26px;
+}
+
+.font_28 {
+  font-size: 28px;
+}
+
+.font_30 {
+  font-size: 30px;
+}
+
+.font_32 {
+  font-size: 32px;
+}
+
+.font_34 {
+  font-size: 34px;
+}
+
+.font_36 {
+  font-size: 36px;
+}
+
+.font_38 {
+  font-size: 38px;
+}
+
+.font_40 {
+  font-size: 40px;
+}
+
+.font_42 {
+  font-size: 42px;
+}
+
+.font_44 {
+  font-size: 44px;
+}
+
+.font_46 {
+  font-size: 46px;
+}
+
+.font_48 {
+  font-size: 48px;
+}
+
+.ui-pt-4 {
+  padding-top: 4px;
+}
+
+.ui-pt-6 {
+  padding-top: 6px;
+}
+
+.ui-pt-8 {
+  padding-top: 8px;
+}
+
+.ui-pt-10 {
+  padding-top: 10px;
+}
+
+.ui-pt-12 {
+  padding-top: 12px;
+}
+
+.ui-pt-14 {
+  padding-top: 14px;
+}
+
+.ui-pt-16 {
+  padding-top: 16px;
+}
+
+.ui-pt-18 {
+  padding-top: 18px;
+}
+
+.ui-pt-20 {
+  padding-top: 20px;
+}
+
+.ui-pt-22 {
+  padding-top: 22px;
+}
+
+.ui-pt-24 {
+  padding-top: 24px;
+}
+
+.ui-pt-26 {
+  padding-top: 26px;
+}
+
+.ui-pt-28 {
+  padding-top: 28px;
+}
+
+.ui-pt-30 {
+  padding-top: 30px;
+}
+
+.ui-pt-32 {
+  padding-top: 32px;
+}
+
+.ui-pt-36 {
+  padding-top: 36px;
+}
+
+.ui-pt-40 {
+  padding-top: 40px;
+}
+
+.ui-pr-4 {
+  padding-right: 4px;
+}
+
+.ui-pr-6 {
+  padding-right: 6px;
+}
+
+.ui-pr-8 {
+  padding-right: 8px;
+}
+
+.ui-pr-10 {
+  padding-right: 10px;
+}
+
+.ui-pr-12 {
+  padding-right: 12px;
+}
+
+.ui-pr-14 {
+  padding-right: 14px;
+}
+
+.ui-pr-16 {
+  padding-right: 16px;
+}
+
+.ui-pr-18 {
+  padding-right: 18px;
+}
+
+.ui-pr-20 {
+  padding-right: 20px;
+}
+
+.ui-pr-22 {
+  padding-right: 22px;
+}
+
+.ui-pr-24 {
+  padding-right: 24px;
+}
+
+.ui-pr-26 {
+  padding-right: 26px;
+}
+
+.ui-pr-28 {
+  padding-right: 28px;
+}
+
+.ui-pr-30 {
+  padding-right: 30px;
+}
+
+.ui-pr-32 {
+  padding-right: 32px;
+}
+
+.ui-pr-36 {
+  padding-right: 36px;
+}
+
+.ui-pr-40 {
+  padding-right: 40px;
+}
+
+.ui-pb-4 {
+  padding-bottom: 4px;
+}
+
+.ui-pb-6 {
+  padding-bottom: 6px;
+}
+
+.ui-pb-8 {
+  padding-bottom: 8px;
+}
+
+.ui-pb-10 {
+  padding-bottom: 10px;
+}
+
+.ui-pb-12 {
+  padding-bottom: 12px;
+}
+
+.ui-pb-14 {
+  padding-bottom: 14px;
+}
+
+.ui-pb-16 {
+  padding-bottom: 16px;
+}
+
+.ui-pb-18 {
+  padding-bottom: 18px;
+}
+
+.ui-pb-20 {
+  padding-bottom: 20px;
+}
+
+.ui-pb-22 {
+  padding-bottom: 22px;
+}
+
+.ui-pb-24 {
+  padding-bottom: 24px;
+}
+
+.ui-pb-26 {
+  padding-bottom: 26px;
+}
+
+.ui-pb-28 {
+  padding-bottom: 28px;
+}
+
+.ui-pb-30 {
+  padding-bottom: 30px;
+}
+
+.ui-pb-32 {
+  padding-bottom: 32px;
+}
+
+.ui-pb-36 {
+  padding-bottom: 36px;
+}
+
+.ui-pb-40 {
+  padding-bottom: 40px;
+}
+
+.ui-pl-4 {
+  padding-left: 4px;
+}
+
+.ui-pl-6 {
+  padding-left: 6px;
+}
+
+.ui-pl-8 {
+  padding-left: 8px;
+}
+
+.ui-pl-10 {
+  padding-left: 10px;
+}
+
+.ui-pl-12 {
+  padding-left: 12px;
+}
+
+.ui-pl-14 {
+  padding-left: 14px;
+}
+
+.ui-pl-16 {
+  padding-left: 16px;
+}
+
+.ui-pl-18 {
+  padding-left: 18px;
+}
+
+.ui-pl-20 {
+  padding-left: 20px;
+}
+
+.ui-pl-22 {
+  padding-left: 22px;
+}
+
+.ui-pl-24 {
+  padding-left: 24px;
+}
+
+.ui-pl-26 {
+  padding-left: 26px;
+}
+
+.ui-pl-28 {
+  padding-left: 28px;
+}
+
+.ui-pl-30 {
+  padding-left: 30px;
+}
+
+.ui-pl-32 {
+  padding-left: 32px;
+}
+
+.ui-pl-36 {
+  padding-left: 36px;
+}
+
+.ui-pl-40 {
+  padding-left: 40px;
+}
+
+.ui-mt-4 {
+  margin-top: 4px;
+}
+
+.ui-mt-6 {
+  margin-top: 6px;
+}
+
+.ui-mt-8 {
+  margin-top: 8px;
+}
+
+.ui-mt-10 {
+  margin-top: 10px;
+}
+
+.ui-mt-12 {
+  margin-top: 12px;
+}
+
+.ui-mt-14 {
+  margin-top: 14px;
+}
+
+.ui-mt-16 {
+  margin-top: 16px;
+}
+
+.ui-mt-18 {
+  margin-top: 18px;
+}
+
+.ui-mt-20 {
+  margin-top: 20px;
+}
+
+.ui-mt-22 {
+  margin-top: 22px;
+}
+
+.ui-mt-24 {
+  margin-top: 24px;
+}
+
+.ui-mt-26 {
+  margin-top: 26px;
+}
+
+.ui-mt-28 {
+  margin-top: 28px;
+}
+
+.ui-mt-30 {
+  margin-top: 30px;
+}
+
+.ui-mt-32 {
+  margin-top: 32px;
+}
+
+.ui-mt-36 {
+  margin-top: 36px;
+}
+
+.ui-mt-40 {
+  margin-top: 40px;
+}
+
+.ui-mr-4 {
+  margin-right: 4px;
+}
+
+.ui-mr-6 {
+  margin-right: 6px;
+}
+
+.ui-mr-8 {
+  margin-right: 8px;
+}
+
+.ui-mr-10 {
+  margin-right: 10px;
+}
+
+.ui-mr-12 {
+  margin-right: 12px;
+}
+
+.ui-mr-14 {
+  margin-right: 14px;
+}
+
+.ui-mr-16 {
+  margin-right: 16px;
+}
+
+.ui-mr-18 {
+  margin-right: 18px;
+}
+
+.ui-mr-20 {
+  margin-right: 20px;
+}
+
+.ui-mr-22 {
+  margin-right: 22px;
+}
+
+.ui-mr-24 {
+  margin-right: 24px;
+}
+
+.ui-mr-26 {
+  margin-right: 26px;
+}
+
+.ui-mr-28 {
+  margin-right: 28px;
+}
+
+.ui-mr-30 {
+  margin-right: 30px;
+}
+
+.ui-mr-32 {
+  margin-right: 32px;
+}
+
+.ui-mr-36 {
+  margin-right: 36px;
+}
+
+.ui-mr-40 {
+  margin-right: 40px;
+}
+
+.ui-mb-4 {
+  margin-bottom: 4px;
+}
+
+.ui-mb-6 {
+  margin-bottom: 6px;
+}
+
+.ui-mb-8 {
+  margin-bottom: 8px;
+}
+
+.ui-mb-10 {
+  margin-bottom: 10px;
+}
+
+.ui-mb-12 {
+  margin-bottom: 12px;
+}
+
+.ui-mb-14 {
+  margin-bottom: 14px;
+}
+
+.ui-mb-16 {
+  margin-bottom: 16px;
+}
+
+.ui-mb-18 {
+  margin-bottom: 18px;
+}
+
+.ui-mb-20 {
+  margin-bottom: 20px;
+}
+
+.ui-mb-22 {
+  margin-bottom: 22px;
+}
+
+.ui-mb-24 {
+  margin-bottom: 24px;
+}
+
+.ui-mb-26 {
+  margin-bottom: 26px;
+}
+
+.ui-mb-28 {
+  margin-bottom: 28px;
+}
+
+.ui-mb-30 {
+  margin-bottom: 30px;
+}
+
+.ui-mb-32 {
+  margin-bottom: 32px;
+}
+
+.ui-mb-36 {
+  margin-bottom: 36px;
+}
+
+.ui-mb-40 {
+  margin-bottom: 40px;
+}
+
+.ui-ml-4 {
+  margin-left: 4px;
+}
+
+.ui-ml-6 {
+  margin-left: 6px;
+}
+
+.ui-ml-8 {
+  margin-left: 8px;
+}
+
+.ui-ml-10 {
+  margin-left: 10px;
+}
+
+.ui-ml-12 {
+  margin-left: 12px;
+}
+
+.ui-ml-14 {
+  margin-left: 14px;
+}
+
+.ui-ml-16 {
+  margin-left: 16px;
+}
+
+.ui-ml-18 {
+  margin-left: 18px;
+}
+
+.ui-ml-20 {
+  margin-left: 20px;
+}
+
+.ui-ml-22 {
+  margin-left: 22px;
+}
+
+.ui-ml-24 {
+  margin-left: 24px;
+}
+
+.ui-ml-26 {
+  margin-left: 26px;
+}
+
+.ui-ml-28 {
+  margin-left: 28px;
+}
+
+.ui-ml-30 {
+  margin-left: 30px;
+}
+
+.ui-ml-32 {
+  margin-left: 32px;
+}
+
+.ui-ml-36 {
+  margin-left: 36px;
+}
+
+.ui-ml-40 {
+  margin-left: 40px;
+}
+
+body {
+  height: 100vh;
+  transform: translate(0);
+}
+
+/* 滚动条凹槽的颜色，还可以设置边框属性 */
+*::-webkit-scrollbar-track-piece {
+  background-color: #f8f8f8;
+  border-radius: 2em;
+}
+
+/* 滚动条 */
+*::-webkit-scrollbar {
+  width: 0;
+}
